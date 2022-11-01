@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componente de Avaliação - Frontend Mentor</title>
+    <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+<body>
+    
+
+    <main>
+        <section class="imagem selecionada avaliacao">
+            <img src="./src/images/icon-star.svg" alt="icon-star">
+            <h1>How did we do?</h1>
+            <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            <form id="formulario">
+                <section>
+                    <div class="radio">
+                        <label>
+                          <input type="radio" class="input-radio" name="option[356]" value="1" required>
+                          <span>1</span>
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" class="input-radio" name="option[356]" value="2" required>
+                          <span>2</span>
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" class="input-radio" name="option[356]" value="3" required>
+                          <span>3</span>
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" class="input-radio" name="option[356]" value="4" required>
+                          <span>4</span>
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" class="input-radio" name="option[356]" value="5" required>
+                          <span>5</span>
+                        </label>
+                      </div>
+                </section>
+                <input type="submit" id="input-submit" value="SUBMIT">
+            </form>
+        </section>
+
+        <section class="imagem thank-you">
+          <img src="./src/images/illustration-thank-you.svg" alt="aria-hidden='true'">
+          <div class="rating-selected">
+            <span class="rating-advice">You selected out <span id="rate"></span> of 5</span>
+          </div>
+          <h2>Thank You</h2>
+          <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+      </section>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
